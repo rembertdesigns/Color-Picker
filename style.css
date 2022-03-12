@@ -21,3 +21,24 @@ body{
     vertical-align: middle;
     margin-left: 40px;
 }
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #000;
+    text-align: center;
+  }
+  .footer p {
+  text-decoration: none;
+  color: #fff;
+  }
+  .footer a {
+    text-decoration: none;
+    color: red;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
